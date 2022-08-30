@@ -97,9 +97,5 @@ def main():
 if __name__ == '__main__':
     main()
 
-"""
-python3 train_scratch.py --dataset=mnist --epoch=200  # 先训练一个model
 
-CUDA_VISIBLE_DEVICES=1 python3 main.py --dataset cifar10  --query_budget 20 --lr_G 5e-4 --student=resnet34 --teacher=resnet34 --ckpt=pretrained/cifar10_resnet34/cifar10_resnet34.pkl --save=test-v1
-"""
 
